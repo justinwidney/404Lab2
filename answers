@@ -1,0 +1,12 @@
+1.
+Create a socket with socket.socket() using socket.SOCK_STREAM
+
+2.
+server sockets are usually bound to ports and established with listen() waiting for a client to connect.
+client sockets use connect() to connect to a server 
+
+3.
+by using SO_REUSEADDR allows reuse of local address. 
+
+5.
+
