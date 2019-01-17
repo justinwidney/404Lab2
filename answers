@@ -8,5 +8,18 @@ client sockets use connect() to connect to a server
 3.
 by using SO_REUSEADDR allows reuse of local address. 
 
+
+4.
+Request type Get
+
+
+
+
 5.
 
+Recv() recieves the data send back from google.  
+
+
+
+6.
+https://github.com/justinwidney/404Lab2
