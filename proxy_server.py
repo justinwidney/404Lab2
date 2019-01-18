@@ -40,7 +40,7 @@ def main():
                     
                     proxy_end.sendall(full_data)
                     
-                   data_google = b""
+                    data_google = b""
                     while True:
                         data = proxy_end.recv(BUFFER_SIZE)
                         if not data:
@@ -51,4 +51,4 @@ def main():
  
 
 if __name__ == "__main__":
-main()
+	main()

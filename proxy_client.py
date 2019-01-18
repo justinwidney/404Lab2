@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+
 import socket
 
 HOST = "localhost"
@@ -29,7 +29,7 @@ def connect_socket(addr):
         print(full_data)
 
     except:
-        print(e)
+        print("error")
         
     finally:
         s.close()
@@ -42,4 +42,4 @@ def main():
     connect_socket(addr)
 
 if __name__ == "__main__":
-main()
+	main()
